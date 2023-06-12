@@ -1,7 +1,5 @@
 import traceback
 
-
-from flask import Flask
 from flask import render_template, request
 from flask_login import login_required
 from jinja2 import TemplateNotFound
@@ -49,6 +47,7 @@ def get_segment(request):
 
     except:
         return None
+
 
 
 ## Errors
