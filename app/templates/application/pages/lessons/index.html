@@ -1,0 +1,60 @@
+{% extends 'layouts/base_logged.html' %}
+
+{% block title %} Generate Lesson Design {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Page content -->
+    <div class="formbold-main-wrapper">
+        <img src="../static/images/logo.jpg" style="width: 30%; height: 30%;">
+        <div class="formbold-form-wrapper" style="max-width: 70%">
+            <form action="/lessons/generatelesson" method="POST">
+                <div class="formbold-input-group">
+                    <input class="formbold-form-input" type="text" name="reportname" id="reportname" required style="color: dimgray; font-size: 18px;" placeholder="Give name to your plan..."/>
+                </div>
+                <div class="formbold-input-group">
+                    <textarea
+                            name="desc"
+                            id="desc"
+                            rows="7"
+                            placeholder="Explain your traget plan, ex: Generate lesson design for subtract lesson for 3rd year MYP curriculum..."
+                            class="formbold-form-input"
+                            maxlength="500"
+                            onkeyup="updateCounter()"
+                            required
+                            style="color: dimgray; font-size: 18px;"
+                    >{{ desc }}</textarea>
+                </div>
+                <div class="counter" id="counter">0/500</div>
+                <p style="font-style: oblique">Choose sections to be included</p>
+                <div class="checkbox-container">
+                    <label for="myCheckbox" class="checkbox-label"><input type="checkbox" name="sections" id="sections1" value="Objectives">Objectives</label><br/>
+                    <label for="myCheckbox" class="checkbox-label"><input type="checkbox" name="sections" id="sections2" value="Lesson Duration">Lesson Duration</label><br/>
+                    <label for="myCheckbox" class="checkbox-label"><input type="checkbox" name="sections" id="sections3" value="Required Materials">Required Materials</label><br/>
+                    <label for="myCheckbox" class="checkbox-label"><input type="checkbox" name="sections" id="sections4" value="Lesson Outline">Lesson Outline</label><br/>
+                    <label for="myCheckbox" class="checkbox-label"><input type="checkbox" name="sections" id="sections5" value="PowerPoint Slides">PowerPoint Slides</label><br/>
+                    <label for="myCheckbox" class="checkbox-label"><input type="checkbox" name="sections" id="sections6" value="Interactive Activities">Interactive Activities</label>
+                </div>
+                <button class="formbold-btn" name="login">Generate by ai</button>
+            </form>
+        </div>
+    </div>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}
+    <script>
+        function updateCounter() {
+            var textarea = document.getElementById("desc");
+            var counter = document.getElementById("counter");
+            var maxLength = textarea.getAttribute("maxlength");
+            var currentLength = textarea.value.length;
+
+            counter.innerHTML = currentLength + "/" + maxLength;
+        }
+    </script>
+{% endblock javascripts %}

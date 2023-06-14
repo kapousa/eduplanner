@@ -510,7 +510,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	        if (sortedChoices[i]) {
 	          appendChoice(sortedChoices[i]);
 	        }
-	      };
+	      }
 
 	      return choicesFragment;
 	    }
@@ -4716,7 +4716,7 @@ return /******/ (function(modules) { // webpackBootstrap
 		}
 
 		return result;
-	};
+	}
 
 /***/ }),
 /* 21 */
@@ -6203,5 +6203,5 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ })
 /******/ ])
 });
-;
+
 //# sourceMappingURL=choices.js.map

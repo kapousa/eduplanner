@@ -1,0 +1,42 @@
+{% extends 'layouts/base_logged.html' %}
+
+{% block title %} Lesson Design {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Page content -->
+    <section>
+        {% if reports_excit == 'Yes' %}
+            <div style="padding-top: 15px;">
+                <h1 style="text-align: center">Saved Plans</h1>
+            </div>
+            <div class="paragraph-box">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Used sentence</th>
+                        <th></th>
+                    </tr>
+                    {% for lesson_design in lesson_designs %}
+                        <tr>
+                            <td>{{ lesson_design['lesson_design_name']|safe }}</td>
+                            <td>{{ lesson_design['desc']|safe }}</td>
+                            <td><a href="/lessons/{{ lesson_design['id'] }}/view">View</a></td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        {% else %}
+            <div class="paragraph-box">
+                <h4>You don't have any saved plans</h4>
+            </div>
+        {% endif %}
+    </section>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}{% endblock javascripts %}

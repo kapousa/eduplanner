@@ -12,7 +12,7 @@ from app.base.util import hash_pass
 
 class User(db.Model, UserMixin):
 
-    __tablename__ = 'user'
+    __tablename__ = 'User'
 
     id = Column(Integer, primary_key=True)
     username = Column(String, unique=True)

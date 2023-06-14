@@ -27,34 +27,37 @@ def route_default():
 
 @blueprint.route('/login', methods=['GET', 'POST'])
 def login():
-    login_form = LoginForm(request.form)
-    if 'login' in request.form:
+    try:
+        login_form = LoginForm(request.form)
+        if 'login' in request.form:
 
-        # read form data
-        username = request.form['username']
-        password = request.form['password']
+            # read form data
+            username = request.form['username']
+            password = request.form['password']
 
-        # Locate user
-        user = User.query.filter_by(username=username).first()
+            # Locate user
+            user = User.query.filter_by(username=username).first()
 
-        # Check the password
-        if user and verify_pass(password, user.password):
+            # Check the password
+            if user and verify_pass(password, user.password):
 
-            login_user(user)
-            session['logged_in'] = True
-            session['logger'] = user.id
-            return redirect(url_for('base_blueprint.index'))
+                login_user(user)
+                session['logged_in'] = True
+                session['logger'] = user.id
+                return redirect(url_for('lessons_blueprint.startreport'))
 
-        # Something (user or pass) is not ok
+            # Something (user or pass) is not ok
+            return render_template('accounts/login.html',
+                                   msg='Wrong user or password',
+                                   form=login_form)
+
+        if not current_user.is_authenticated:
+            return render_template('accounts/login.html',
+                                   form=login_form)
         return render_template('accounts/login.html',
-                               msg='Wrong user or password',
-                               form=login_form)
-
-    if not current_user.is_authenticated:
-        return render_template('accounts/login.html',
-                               form=login_form)
-    return render_template('accounts/login.html',
-                               form=login_form)
+                                   form=login_form)
+    except Exception as e:
+        print(e)
 
 
 @blueprint.route('/register', methods=['GET', 'POST'])
