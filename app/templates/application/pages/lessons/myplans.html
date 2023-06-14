@@ -24,7 +24,7 @@
                         <tr>
                             <td>{{ lesson_design['lesson_design_name']|safe }}</td>
                             <td>{{ lesson_design['desc']|safe }}</td>
-                            <td><a href="/lessons/{{ lesson_design['id'] }}/view">View</a></td>
+                            <td><a href="/lessons/view?r={{ lesson_design['id'] }}">View</a></td>
                         </tr>
                     {% endfor %}
                 </table>

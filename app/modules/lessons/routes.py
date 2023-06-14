@@ -22,9 +22,10 @@ def myreports():
     lessons_controller = LessonsController()
     return lessons_controller.get_all_reports()
 
-@blueprint.route('/lessons/<report_id>/view', methods=['POST', 'GET'])
+@blueprint.route('/lessons/view', methods=['POST', 'GET'])
 @login_required
-def viewreport(report_id):
+def viewreport():
+    report_id = request.args.get('r')
     lessons_controller = LessonsController()
     return lessons_controller.get_report(report_id)
 

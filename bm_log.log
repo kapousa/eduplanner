@@ -4328,3 +4328,80 @@ jinja2.exceptions.TemplateNotFound: page-500.html
 2023-06-14 18:45:53,812 INFO werkzeug MainThread :  * Debugger PIN: 808-977-508
 2023-06-14 18:45:58,814 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 18:45:58] "GET /lessons/9OY11YF3Z0KTFU/view HTTP/1.1" 200 -
 2023-06-14 18:45:58,837 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 18:45:58] "[33mGET /lessons/static/css/main.css HTTP/1.1[0m" 404 -
+2023-06-14 20:30:33,001 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:33] "GET /lessons/9OY11YF3Z0KTFU/view HTTP/1.1" 200 -
+2023-06-14 20:30:33,067 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:33] "[33mGET /lessons/static/css/main.css HTTP/1.1[0m" 404 -
+2023-06-14 20:30:33,886 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:33] "GET /lessons/9OY11YF3Z0KTFU/view HTTP/1.1" 200 -
+2023-06-14 20:30:33,908 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:33] "[33mGET /lessons/static/css/main.css HTTP/1.1[0m" 404 -
+2023-06-14 20:30:34,170 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:34] "GET /lessons/9OY11YF3Z0KTFU/view HTTP/1.1" 200 -
+2023-06-14 20:30:34,184 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:34] "[33mGET /lessons/static/css/main.css HTTP/1.1[0m" 404 -
+2023-06-14 20:30:34,468 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:34] "GET /lessons/9OY11YF3Z0KTFU/view HTTP/1.1" 200 -
+2023-06-14 20:30:34,481 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:34] "[33mGET /lessons/static/css/main.css HTTP/1.1[0m" 404 -
+2023-06-14 20:30:34,698 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:34] "GET /lessons/9OY11YF3Z0KTFU/view HTTP/1.1" 200 -
+2023-06-14 20:30:34,709 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:34] "[33mGET /lessons/static/css/main.css HTTP/1.1[0m" 404 -
+2023-06-14 20:30:48,413 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:48] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-14 20:30:48,444 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:30:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:31:08,037 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:31:08] "GET /lessons/9OY11YF3Z0KTFU/view HTTP/1.1" 200 -
+2023-06-14 20:31:08,061 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:31:08] "[33mGET /lessons/static/css/main.css HTTP/1.1[0m" 404 -
+2023-06-14 20:34:04,230 INFO werkzeug MainThread :  * Detected change in '/Users/kapo/PycharmProjects/eduplanner/app/modules/lessons/routes.py', reloading
+2023-06-14 20:34:04,616 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 20:34:05,188 INFO app MainThread : DEBUG       = True
+2023-06-14 20:34:05,188 INFO app MainThread : Environment = Debug
+2023-06-14 20:34:05,188 INFO app MainThread : DBMS        = sqlite:////Users/kapo/PycharmProjects/eduplanner/app/db.sqlite3?check_same_thread=False
+2023-06-14 20:34:05,191 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 20:34:05,202 INFO werkzeug MainThread :  * Debugger PIN: 808-977-508
+2023-06-14 20:35:16,366 INFO werkzeug MainThread :  * Detected change in '/Users/kapo/PycharmProjects/eduplanner/app/modules/lessons/routes.py', reloading
+2023-06-14 20:35:16,447 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 20:35:17,045 INFO app MainThread : DEBUG       = True
+2023-06-14 20:35:17,045 INFO app MainThread : Environment = Debug
+2023-06-14 20:35:17,045 INFO app MainThread : DBMS        = sqlite:////Users/kapo/PycharmProjects/eduplanner/app/db.sqlite3?check_same_thread=False
+2023-06-14 20:35:17,047 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 20:35:17,053 INFO werkzeug MainThread :  * Debugger PIN: 808-977-508
+2023-06-14 20:35:20,696 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:35:20] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-14 20:35:20,726 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:35:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:35:24,639 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:35:24] "[35m[1mGET /lessons/view/9OY11YF3Z0KTFU HTTP/1.1[0m" 500 -
+2023-06-14 20:35:24,663 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:35:24] "GET /lessons/view/9OY11YF3Z0KTFU?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-06-14 20:35:24,664 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:35:24] "GET /lessons/view/9OY11YF3Z0KTFU?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-06-14 20:35:24,677 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:35:24] "GET /lessons/view/9OY11YF3Z0KTFU?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-06-14 20:35:24,696 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:35:24] "[36mGET /lessons/view/9OY11YF3Z0KTFU?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-14 20:35:41,832 INFO werkzeug MainThread :  * Detected change in '/Users/kapo/PycharmProjects/eduplanner/app/modules/lessons/routes.py', reloading
+2023-06-14 20:35:41,919 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 20:35:42,336 INFO app MainThread : DEBUG       = True
+2023-06-14 20:35:42,336 INFO app MainThread : Environment = Debug
+2023-06-14 20:35:42,336 INFO app MainThread : DBMS        = sqlite:////Users/kapo/PycharmProjects/eduplanner/app/db.sqlite3?check_same_thread=False
+2023-06-14 20:35:42,341 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 20:35:42,358 INFO werkzeug MainThread :  * Debugger PIN: 808-977-508
+2023-06-14 20:35:43,534 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:35:43] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-14 20:35:43,575 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:35:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:35:44,801 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:35:44] "GET /lessons/view/9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-14 20:35:44,827 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:35:44] "[33mGET /lessons/static/css/main.css HTTP/1.1[0m" 404 -
+2023-06-14 20:37:54,370 INFO werkzeug MainThread :  * Detected change in '/Users/kapo/PycharmProjects/eduplanner/app/modules/lessons/routes.py', reloading
+2023-06-14 20:37:54,486 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-14 20:37:55,004 INFO app MainThread : DEBUG       = True
+2023-06-14 20:37:55,005 INFO app MainThread : Environment = Debug
+2023-06-14 20:37:55,005 INFO app MainThread : DBMS        = sqlite:////Users/kapo/PycharmProjects/eduplanner/app/db.sqlite3?check_same_thread=False
+2023-06-14 20:37:55,007 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-14 20:37:55,012 INFO werkzeug MainThread :  * Debugger PIN: 808-977-508
+2023-06-14 20:37:57,919 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:37:57] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-14 20:37:57,947 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:37:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:38:01,230 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:38:01] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-14 20:38:01,254 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:38:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:38:08,766 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:38:08] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-14 20:38:08,791 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:38:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:38:12,446 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:38:12] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-14 20:38:12,470 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:38:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:38:12,473 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:38:12] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-14 20:38:14,874 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:38:14] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-14 20:38:14,898 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:38:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:38:18,721 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:38:18] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-14 20:38:18,747 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:38:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:42:01,631 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:01] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-14 20:42:01,659 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:42:01,660 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:01] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-14 20:42:03,246 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-06-14 20:42:03,266 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:03] "GET /login HTTP/1.1" 200 -
+2023-06-14 20:42:03,293 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:42:03,295 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:03] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-14 20:42:05,567 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-06-14 20:42:05,570 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:05] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-14 20:42:05,584 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-14 20:42:05,586 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:05] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
