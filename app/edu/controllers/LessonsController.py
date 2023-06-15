@@ -35,7 +35,6 @@ class LessonsController:
     def get_report(self, report_id):
         crudlessondesign = CRUDLessonDesign()
         lessondesign = crudlessondesign.retrieve(report_id)
-        print(lessondesign.desc)
 
         crudlessondesignsection = CRUDLessonDesignSection()
         lessonsections = crudlessondesignsection.retrieve(lessondesign.id)

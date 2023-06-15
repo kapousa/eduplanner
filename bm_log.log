@@ -4405,3 +4405,387 @@ jinja2.exceptions.TemplateNotFound: page-500.html
 2023-06-14 20:42:05,570 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:05] "GET /lessons/startreport HTTP/1.1" 200 -
 2023-06-14 20:42:05,584 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
 2023-06-14 20:42:05,586 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [14/Jun/2023 20:42:05] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 08:32:48,211 INFO app MainThread : DEBUG       = True
+2023-06-15 08:32:48,211 INFO app MainThread : Environment = Debug
+2023-06-15 08:32:48,211 INFO app MainThread : DBMS        = sqlite:////Users/kapo/PycharmProjects/eduplanner/app/db.sqlite3?check_same_thread=False
+2023-06-15 08:32:48,214 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5113
+2023-06-15 08:32:48,214 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:32:48,215 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-15 08:32:48,939 INFO app MainThread : DEBUG       = True
+2023-06-15 08:32:48,939 INFO app MainThread : Environment = Debug
+2023-06-15 08:32:48,939 INFO app MainThread : DBMS        = sqlite:////Users/kapo/PycharmProjects/eduplanner/app/db.sqlite3?check_same_thread=False
+2023-06-15 08:32:48,940 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-15 08:32:48,948 INFO werkzeug MainThread :  * Debugger PIN: 808-977-508
+2023-06-15 08:33:34,540 INFO app MainThread : DEBUG       = True
+2023-06-15 08:33:34,540 INFO app MainThread : Environment = Debug
+2023-06-15 08:33:34,540 INFO app MainThread : DBMS        = sqlite:////Users/kapo/PycharmProjects/eduplanner/app/db.sqlite3?check_same_thread=False
+2023-06-15 08:33:34,544 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5112
+2023-06-15 08:33:34,544 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-06-15 08:33:34,546 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-15 08:33:35,339 INFO app MainThread : DEBUG       = True
+2023-06-15 08:33:35,339 INFO app MainThread : Environment = Debug
+2023-06-15 08:33:35,339 INFO app MainThread : DBMS        = sqlite:////Users/kapo/PycharmProjects/eduplanner/app/db.sqlite3?check_same_thread=False
+2023-06-15 08:33:35,340 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-15 08:33:35,347 INFO werkzeug MainThread :  * Debugger PIN: 808-977-508
+2023-06-15 08:33:39,744 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:39] "[32mGET / HTTP/1.1[0m" 302 -
+2023-06-15 08:33:39,774 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:39] "GET /login HTTP/1.1" 200 -
+2023-06-15 08:33:39,795 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:39] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 08:33:39,800 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:39] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 08:33:39,828 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-06-15 08:33:41,789 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-06-15 08:33:41,797 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:41] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 08:33:41,810 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 08:33:41,811 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:41] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 08:33:45,712 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:45] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 08:33:45,738 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 08:33:51,574 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:51] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 08:33:51,623 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 08:33:51,625 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:33:51] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 08:35:37,079 DEBUG openai Thread-21 (process_request_thread) : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+2023-06-15 08:35:37,080 DEBUG openai Thread-21 (process_request_thread) : api_version=None data='{"model": "text-davinci-003", "prompt": "Give me only detailed examples of the Objectives for lesson design of Give me lesson plan of using past verbs for grade 5 based on the american cricuilum ", "temperature": 0.7, "max_tokens": 4000, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+2023-06-15 08:35:37,080 DEBUG urllib3.util.retry Thread-21 (process_request_thread) : Converted retries value: 2 -> Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2023-06-15 08:35:37,128 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): api.openai.com:443
+2023-06-15 08:35:43,828 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+2023-06-15 08:35:43,830 DEBUG openai Thread-21 (process_request_thread) : message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=6090 request_id=5e5a5657beb165c7fc50f8aa0e6b7d1d response_code=200
+2023-06-15 08:35:43,837 DEBUG openai Thread-21 (process_request_thread) : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+2023-06-15 08:35:43,838 DEBUG openai Thread-21 (process_request_thread) : api_version=None data='{"model": "text-davinci-003", "prompt": "Give me only detailed examples of the Lesson Duration for lesson design of Give me lesson plan of using past verbs for grade 5 based on the american cricuilum ", "temperature": 0.7, "max_tokens": 4000, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+2023-06-15 08:35:59,264 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+2023-06-15 08:35:59,265 DEBUG openai Thread-21 (process_request_thread) : message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=15034 request_id=fdabec8197cb9c1e3621b1793cbbea57 response_code=200
+2023-06-15 08:35:59,266 DEBUG openai Thread-21 (process_request_thread) : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+2023-06-15 08:35:59,266 DEBUG openai Thread-21 (process_request_thread) : api_version=None data='{"model": "text-davinci-003", "prompt": "Give me only detailed examples of the Required Materials for lesson design of Give me lesson plan of using past verbs for grade 5 based on the american cricuilum ", "temperature": 0.7, "max_tokens": 4000, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+2023-06-15 08:36:12,685 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+2023-06-15 08:36:12,686 DEBUG openai Thread-21 (process_request_thread) : message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=13132 request_id=34c44180d5f1cca3210560aff4f934df response_code=200
+2023-06-15 08:36:12,687 DEBUG openai Thread-21 (process_request_thread) : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+2023-06-15 08:36:12,687 DEBUG openai Thread-21 (process_request_thread) : api_version=None data='{"model": "text-davinci-003", "prompt": "Give me only detailed examples of the Lesson Outline for lesson design of Give me lesson plan of using past verbs for grade 5 based on the american cricuilum ", "temperature": 0.7, "max_tokens": 4000, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+2023-06-15 08:36:34,924 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+2023-06-15 08:36:34,927 DEBUG openai Thread-21 (process_request_thread) : message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=21630 request_id=fb923bd798818272ac611f54c88c0cb1 response_code=200
+2023-06-15 08:36:34,929 DEBUG openai Thread-21 (process_request_thread) : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+2023-06-15 08:36:34,930 DEBUG openai Thread-21 (process_request_thread) : api_version=None data='{"model": "text-davinci-003", "prompt": "Give me only detailed examples of the PowerPoint Slides for lesson design of Give me lesson plan of using past verbs for grade 5 based on the american cricuilum ", "temperature": 0.7, "max_tokens": 4000, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+2023-06-15 08:36:46,617 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+2023-06-15 08:36:46,620 DEBUG openai Thread-21 (process_request_thread) : message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=11387 request_id=619220a466e7c66fe41855970a24de83 response_code=200
+2023-06-15 08:36:46,621 DEBUG openai Thread-21 (process_request_thread) : message='Request to OpenAI API' method=post path=https://api.openai.com/v1/completions
+2023-06-15 08:36:46,621 DEBUG openai Thread-21 (process_request_thread) : api_version=None data='{"model": "text-davinci-003", "prompt": "Give me only detailed examples of the Interactive Activities for lesson design of Give me lesson plan of using past verbs for grade 5 based on the american cricuilum ", "temperature": 0.7, "max_tokens": 4000, "top_p": 1, "frequency_penalty": 0, "presence_penalty": 0}' message='Post details'
+2023-06-15 08:37:07,591 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://api.openai.com:443 "POST /v1/completions HTTP/1.1" 200 None
+2023-06-15 08:37:07,593 DEBUG openai Thread-21 (process_request_thread) : message='OpenAI API response' path=https://api.openai.com/v1/completions processing_ms=20551 request_id=294f8572e93dcd28d19a6576615b692b response_code=200
+2023-06-15 08:37:07,608 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:37:07] "POST /lessons/generatelesson HTTP/1.1" 200 -
+2023-06-15 08:37:07,632 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:37:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 08:37:50,792 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:37:50] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 08:37:50,824 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:37:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 08:38:03,714 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:38:03] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 08:38:03,741 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:38:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 08:45:33,107 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:45:33] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 08:45:33,126 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:45:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 08:45:53,750 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:45:53] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 08:45:53,778 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:45:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 08:46:33,442 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:46:33] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 08:46:33,488 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:46:33] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 08:46:34,532 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:46:34] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 08:46:34,555 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:46:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 08:46:35,195 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:46:35] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 08:46:35,217 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:46:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 08:46:48,056 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:46:48] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 08:46:48,080 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:46:48] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 08:46:53,397 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:46:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 08:48:17,764 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:48:17] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 08:48:17,784 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:48:17] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 08:48:36,224 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:48:36] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 08:48:36,245 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:48:36] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 08:49:29,739 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:49:29] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 08:49:29,760 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 08:49:29] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:01:56,442 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:01:56] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:01:56,470 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:01:56] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:02:31,782 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:02:31] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:02:31,806 INFO werkzeug Thread-50 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:02:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:03:59,021 INFO werkzeug Thread-51 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:03:59] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:03:59,045 INFO werkzeug Thread-52 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:03:59] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:04:07,288 INFO werkzeug Thread-53 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:04:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:04:30,268 INFO werkzeug Thread-54 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:04:30] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:04:30,289 INFO werkzeug Thread-55 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:04:30] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:04:39,074 INFO werkzeug Thread-56 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:04:39] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:04:39,098 INFO werkzeug Thread-57 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:04:39] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:04:53,832 INFO werkzeug Thread-58 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:04:53] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:04:53,854 INFO werkzeug Thread-59 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:04:53] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:05:14,562 INFO werkzeug Thread-60 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:05:14] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:05:14,586 INFO werkzeug Thread-61 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:05:14] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:07:43,129 INFO werkzeug Thread-62 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:07:43] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:07:43,154 INFO werkzeug Thread-63 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:07:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:07:48,591 INFO werkzeug Thread-64 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:07:48] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-06-15 09:07:48,603 INFO werkzeug Thread-65 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:07:48] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:07:48,629 INFO werkzeug Thread-66 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:07:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:07:48,631 INFO werkzeug Thread-67 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:07:48] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:08:15,237 INFO werkzeug Thread-68 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:15] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:08:15,260 INFO werkzeug Thread-69 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:15] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:08:15,264 INFO werkzeug Thread-70 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:15] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:08:16,441 INFO werkzeug Thread-71 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:16] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:08:16,465 INFO werkzeug Thread-72 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:08:16,471 INFO werkzeug Thread-73 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:16] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:08:16,628 INFO werkzeug Thread-74 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:16] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:08:16,649 INFO werkzeug Thread-75 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:08:16,652 INFO werkzeug Thread-76 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:16] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:08:16,842 INFO werkzeug Thread-77 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:16] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:08:16,866 INFO werkzeug Thread-78 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:08:16,872 INFO werkzeug Thread-79 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:16] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:08:47,982 INFO werkzeug Thread-80 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:47] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:08:48,008 INFO werkzeug Thread-81 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:48] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:08:48,015 INFO werkzeug Thread-82 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:08:48] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:10:33,942 INFO werkzeug Thread-83 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:10:33] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:10:33,967 INFO werkzeug Thread-84 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:10:33] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:10:33,973 INFO werkzeug Thread-85 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:10:33] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:10:51,733 INFO werkzeug Thread-86 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:10:51] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:10:51,758 INFO werkzeug Thread-87 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:10:51] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:10:51,762 INFO werkzeug Thread-88 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:10:51] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:11:04,532 INFO werkzeug Thread-89 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:11:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-06-15 09:11:04,536 INFO werkzeug Thread-90 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:11:04] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:11:04,551 INFO werkzeug Thread-92 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:11:04] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:11:04,551 INFO werkzeug Thread-91 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:11:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:11:22,177 INFO werkzeug Thread-93 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:11:22] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:11:22,219 INFO werkzeug Thread-94 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:11:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:11:25,697 INFO werkzeug Thread-95 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:11:25] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:11:25,724 INFO werkzeug Thread-96 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:11:25] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:12:44,415 INFO werkzeug Thread-97 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:12:44] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:12:44,439 INFO werkzeug Thread-98 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:12:44] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:13:10,379 INFO werkzeug Thread-99 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:13:10] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:13:10,402 INFO werkzeug Thread-100 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:13:10] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:13:24,227 INFO werkzeug Thread-101 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:13:24] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:13:24,250 INFO werkzeug Thread-102 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:13:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:14:25,493 INFO werkzeug Thread-103 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:25] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:14:25,519 INFO werkzeug Thread-104 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:25] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:14:37,158 INFO werkzeug Thread-105 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:37] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:14:37,182 INFO werkzeug Thread-106 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:14:44,763 INFO werkzeug Thread-107 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:44] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:14:44,811 INFO werkzeug Thread-108 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:14:44,813 INFO werkzeug Thread-109 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:44] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:14:46,786 INFO werkzeug Thread-110 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:46] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:14:46,812 INFO werkzeug Thread-111 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:46] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:14:47,969 INFO werkzeug Thread-112 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:47] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:14:48,000 INFO werkzeug Thread-113 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:14:48,001 INFO werkzeug Thread-114 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:48] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:14:52,259 INFO werkzeug Thread-115 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-06-15 09:14:52,270 INFO werkzeug Thread-116 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:52] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:14:52,299 INFO werkzeug Thread-117 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:14:52,300 INFO werkzeug Thread-118 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:14:52] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:15:16,639 INFO werkzeug Thread-119 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-06-15 09:15:16,644 INFO werkzeug Thread-120 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:16] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:15:16,659 INFO werkzeug Thread-121 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:16] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:15:16,661 INFO werkzeug Thread-122 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:16] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:15:17,742 INFO werkzeug Thread-123 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:17] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:15:17,769 INFO werkzeug Thread-124 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:15:18,840 INFO werkzeug Thread-125 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:18] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:15:18,866 INFO werkzeug Thread-126 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:18] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:15:39,566 INFO werkzeug Thread-127 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:39] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:15:39,588 INFO werkzeug Thread-128 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:39] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:15:49,516 INFO werkzeug Thread-129 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:49] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:15:49,540 INFO werkzeug Thread-130 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:15:49] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:16:09,751 INFO werkzeug Thread-131 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:16:09] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:16:09,775 INFO werkzeug Thread-132 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:16:09] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:16:26,983 INFO werkzeug Thread-133 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:16:26] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:16:51,117 INFO werkzeug Thread-134 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:16:51] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:16:51,135 INFO werkzeug Thread-135 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:16:51] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:17:28,848 INFO werkzeug Thread-136 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:28] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:17:28,873 INFO werkzeug Thread-137 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:17:30,515 INFO werkzeug Thread-138 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:30] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:17:30,539 INFO werkzeug Thread-139 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:17:48,364 INFO werkzeug Thread-140 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:48] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-06-15 09:17:48,375 INFO werkzeug Thread-141 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:48] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:17:48,402 INFO werkzeug Thread-142 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:17:48,403 INFO werkzeug Thread-143 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:48] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:17:52,665 INFO werkzeug Thread-144 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-06-15 09:17:52,670 INFO werkzeug Thread-145 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:52] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:17:52,710 INFO werkzeug Thread-146 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:17:52,711 INFO werkzeug Thread-147 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:52] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:17:58,231 INFO werkzeug Thread-148 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:58] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:17:58,258 INFO werkzeug Thread-149 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:17:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:18:04,072 INFO werkzeug Thread-150 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:18:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:19:10,637 INFO werkzeug Thread-151 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:19:10] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:19:10,662 INFO werkzeug Thread-152 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:19:10] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:20:04,771 INFO werkzeug Thread-153 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:20:04] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:20:04,796 INFO werkzeug Thread-154 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:20:04] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:20:09,258 INFO werkzeug Thread-155 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:20:09] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:20:09,306 INFO werkzeug Thread-156 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:20:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:20:09,306 INFO werkzeug Thread-157 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:20:09] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:20:11,548 INFO werkzeug Thread-158 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:20:11] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:20:11,574 INFO werkzeug Thread-159 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:20:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:20:13,666 INFO werkzeug Thread-160 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:20:13] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:20:13,694 INFO werkzeug Thread-161 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:20:13] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:20:41,492 INFO werkzeug Thread-162 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:20:41] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:20:41,516 INFO werkzeug Thread-163 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:20:41] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:22:24,814 INFO werkzeug Thread-164 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:22:24] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:22:24,840 INFO werkzeug Thread-165 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:22:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:22:32,490 INFO werkzeug Thread-166 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:22:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:24:06,111 INFO werkzeug Thread-167 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:24:06] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:24:06,136 INFO werkzeug Thread-168 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:24:06] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:24:29,072 INFO werkzeug Thread-169 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:24:29] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:24:29,096 INFO werkzeug Thread-170 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:24:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:24:35,799 INFO werkzeug Thread-171 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:24:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:25:32,869 INFO werkzeug Thread-172 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:32] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:25:32,893 INFO werkzeug Thread-173 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:32] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:25:40,055 INFO werkzeug Thread-174 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:40] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:25:40,082 INFO werkzeug Thread-175 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:40] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:25:40,085 INFO werkzeug Thread-176 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:40] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:25:43,184 INFO werkzeug Thread-177 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:43] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:25:43,210 INFO werkzeug Thread-178 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:43] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:25:49,571 INFO werkzeug Thread-179 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:49] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:25:49,599 INFO werkzeug Thread-180 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:25:49,600 INFO werkzeug Thread-181 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:49] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:25:53,685 INFO werkzeug Thread-182 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:53] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:25:53,712 INFO werkzeug Thread-183 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:25:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:26:18,761 INFO werkzeug Thread-184 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:18] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:26:18,786 INFO werkzeug Thread-185 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:18] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:26:19,619 INFO werkzeug Thread-186 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:19] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:26:19,642 INFO werkzeug Thread-187 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:26:19,827 INFO werkzeug Thread-188 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:19] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:26:19,852 INFO werkzeug Thread-189 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:26:20,006 INFO werkzeug Thread-190 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:20] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:26:20,029 INFO werkzeug Thread-191 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:20] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:26:22,523 INFO werkzeug Thread-192 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:22] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:26:22,546 INFO werkzeug Thread-193 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:26:22,547 INFO werkzeug Thread-194 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:22] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:26:29,774 INFO werkzeug Thread-195 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:29] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:26:29,800 INFO werkzeug Thread-196 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:26:34,367 INFO werkzeug Thread-197 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:26:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:27:10,683 INFO werkzeug Thread-198 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:10] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:27:10,708 INFO werkzeug Thread-199 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:10] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:27:14,708 INFO werkzeug Thread-200 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:14] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:27:14,733 INFO werkzeug Thread-201 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:14] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:27:27,673 INFO werkzeug Thread-202 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:27] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 09:27:27,698 INFO werkzeug Thread-203 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:27] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:27:30,724 INFO werkzeug Thread-204 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:30] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:27:30,752 INFO werkzeug Thread-205 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:30] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:27:30,754 INFO werkzeug Thread-206 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:30] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:27:33,448 INFO werkzeug Thread-207 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:33] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:27:33,474 INFO werkzeug Thread-208 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:27:45,088 INFO werkzeug Thread-209 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:45] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-06-15 09:27:45,099 INFO werkzeug Thread-210 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:45] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:27:45,151 INFO werkzeug Thread-211 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:27:45,152 INFO werkzeug Thread-212 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:27:45] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:28:22,211 INFO werkzeug Thread-213 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:28:22] "GET /login HTTP/1.1" 200 -
+2023-06-15 09:28:22,236 INFO werkzeug Thread-214 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:28:22] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:28:22,242 INFO werkzeug Thread-215 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:28:22] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:28:27,495 INFO werkzeug Thread-216 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:28:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-06-15 09:28:27,499 INFO werkzeug Thread-217 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:28:27] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:28:27,514 INFO werkzeug Thread-219 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:28:27] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:28:27,515 INFO werkzeug Thread-218 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:28:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:28:33,192 INFO werkzeug Thread-220 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:28:33] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:28:33,218 INFO werkzeug Thread-221 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:28:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:28:36,255 INFO werkzeug Thread-222 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:28:36] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:28:36,281 INFO werkzeug Thread-223 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:28:36] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:29:26,208 INFO werkzeug Thread-224 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:29:26] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:29:26,234 INFO werkzeug Thread-225 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:29:26] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:29:56,278 INFO werkzeug Thread-226 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:29:56] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:29:56,303 INFO werkzeug Thread-227 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:29:56] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:31:51,572 INFO werkzeug Thread-228 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:31:51] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:31:51,602 INFO werkzeug Thread-229 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:31:51] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:33:38,039 INFO werkzeug Thread-230 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:33:38] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:33:38,066 INFO werkzeug Thread-231 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:33:38] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:33:54,119 INFO werkzeug Thread-232 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:33:54] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:33:54,144 INFO werkzeug Thread-233 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:33:54] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:33:58,606 INFO werkzeug Thread-234 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:33:58] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:33:58,636 INFO werkzeug Thread-235 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:33:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:33:58,638 INFO werkzeug Thread-236 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:33:58] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:34:44,918 INFO werkzeug Thread-237 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:34:44] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:34:44,949 INFO werkzeug Thread-238 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:34:44] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:34:44,950 INFO werkzeug Thread-239 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:34:44] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:34:57,682 INFO werkzeug Thread-240 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:34:57] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:34:57,709 INFO werkzeug Thread-241 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:34:57] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:34:57,711 INFO werkzeug Thread-242 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:34:57] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:35:03,840 INFO werkzeug Thread-243 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:35:03] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:35:03,866 INFO werkzeug Thread-244 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:35:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:35:09,748 INFO werkzeug Thread-245 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:35:09] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:35:09,774 INFO werkzeug Thread-246 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:35:09] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:35:34,539 INFO werkzeug Thread-247 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:35:34] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:35:34,564 INFO werkzeug Thread-248 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:35:34] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:35:36,980 INFO werkzeug Thread-249 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:35:36] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:35:37,004 INFO werkzeug Thread-250 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:35:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:36:26,862 INFO werkzeug Thread-251 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:26] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:36:26,891 INFO werkzeug Thread-252 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:26] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:36:27,818 INFO werkzeug Thread-253 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:27] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:36:27,842 INFO werkzeug Thread-254 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:27] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:36:28,042 INFO werkzeug Thread-255 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:28] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:36:28,066 INFO werkzeug Thread-256 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:36:28,251 INFO werkzeug Thread-257 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:28] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:36:28,274 INFO werkzeug Thread-258 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:36:28,448 INFO werkzeug Thread-259 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:28] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:36:28,471 INFO werkzeug Thread-260 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:36:36,868 INFO werkzeug Thread-261 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:36] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:36:36,895 INFO werkzeug Thread-262 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:36] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:36:45,086 INFO werkzeug Thread-263 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:45] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:36:45,109 INFO werkzeug Thread-264 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:45] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:36:45,849 INFO werkzeug Thread-265 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:45] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:36:45,873 INFO werkzeug Thread-266 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:36:50,987 INFO werkzeug Thread-267 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:50] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:36:51,016 INFO werkzeug Thread-268 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:36:51,018 INFO werkzeug Thread-269 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:36:51] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:37:43,778 INFO werkzeug Thread-270 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:37:43] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:37:43,806 INFO werkzeug Thread-271 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:37:43] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:37:43,808 INFO werkzeug Thread-272 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:37:43] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:37:47,231 INFO werkzeug Thread-273 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:37:47] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:37:47,255 INFO werkzeug Thread-274 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:37:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:37:53,095 INFO werkzeug Thread-275 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:37:53] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:40:30,770 INFO werkzeug Thread-276 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:40:30] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:40:30,795 INFO werkzeug Thread-277 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:40:30] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:41:07,269 INFO werkzeug Thread-278 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:41:07] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:41:07,296 INFO werkzeug Thread-279 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:41:07] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:43:36,025 INFO werkzeug Thread-280 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:43:36] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:43:36,060 INFO werkzeug Thread-281 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:43:36] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-15 09:43:39,181 INFO werkzeug Thread-282 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:43:39] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:43:39,209 INFO werkzeug Thread-283 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:43:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:43:39,214 INFO werkzeug Thread-284 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:43:39] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:45:33,931 INFO werkzeug Thread-286 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:45:33] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:45:33,955 INFO werkzeug Thread-287 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:45:33] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:45:51,058 INFO werkzeug Thread-288 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:45:51] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:45:51,084 INFO werkzeug Thread-289 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:45:51] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:46:01,142 INFO werkzeug Thread-290 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:46:01] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 09:46:01,169 INFO werkzeug Thread-291 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:46:01] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:46:01,173 INFO werkzeug Thread-292 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:46:01] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 09:46:02,653 INFO werkzeug Thread-293 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:46:02] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 09:46:02,680 INFO werkzeug Thread-294 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:46:02] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 09:46:10,096 INFO werkzeug Thread-295 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:46:10] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 09:46:10,122 INFO werkzeug Thread-296 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 09:46:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:02:34,629 INFO werkzeug Thread-297 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:02:34] "[32mGET /logout HTTP/1.1[0m" 302 -
+2023-06-15 10:02:34,640 INFO werkzeug Thread-298 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:02:34] "GET /login HTTP/1.1" 200 -
+2023-06-15 10:02:34,666 INFO werkzeug Thread-299 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:02:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:02:34,668 INFO werkzeug Thread-300 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:02:34] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 10:03:04,754 INFO werkzeug Thread-301 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:03:04] "GET /login HTTP/1.1" 200 -
+2023-06-15 10:03:04,781 INFO werkzeug Thread-302 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:03:04] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:03:04,785 INFO werkzeug Thread-303 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:03:04] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 10:03:26,353 INFO werkzeug Thread-304 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:03:26] "GET /login HTTP/1.1" 200 -
+2023-06-15 10:03:26,377 INFO werkzeug Thread-305 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:03:26] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:03:26,382 INFO werkzeug Thread-306 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:03:26] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 10:04:47,627 INFO werkzeug Thread-307 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:04:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-06-15 10:04:47,632 INFO werkzeug Thread-308 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:04:47] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 10:04:47,651 INFO werkzeug Thread-309 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:04:47] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:04:47,651 INFO werkzeug Thread-310 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:04:47] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 10:05:10,054 INFO werkzeug Thread-311 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:05:10] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 10:05:10,080 INFO werkzeug Thread-312 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:05:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:05:34,649 INFO werkzeug Thread-313 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:05:34] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 10:05:34,676 INFO werkzeug Thread-314 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:05:34] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:06:21,529 INFO werkzeug Thread-315 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:06:21] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 10:06:21,576 INFO werkzeug Thread-316 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:06:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:06:21,578 INFO werkzeug Thread-317 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:06:21] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 10:06:23,666 INFO werkzeug Thread-318 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:06:23] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 10:06:23,693 INFO werkzeug Thread-319 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:06:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:06:24,932 INFO werkzeug Thread-320 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:06:24] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 10:06:24,958 INFO werkzeug Thread-321 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:06:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:10:57,629 INFO werkzeug Thread-322 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:10:57] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 10:10:57,678 INFO werkzeug Thread-323 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:10:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:10:57,679 INFO werkzeug Thread-324 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:10:57] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 10:11:05,515 INFO werkzeug Thread-325 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:11:05] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 10:11:05,542 INFO werkzeug Thread-326 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:11:05] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:11:07,378 INFO werkzeug Thread-327 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:11:07] "GET /lessons/view?r=GB46H81BANZXO0 HTTP/1.1" 200 -
+2023-06-15 10:11:07,405 INFO werkzeug Thread-328 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:11:07] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:21:58,468 INFO werkzeug Thread-329 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:21:58] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-15 10:21:58,511 INFO werkzeug Thread-330 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:21:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:21:59,828 INFO werkzeug Thread-331 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:21:59] "GET /lessons/view?r=9OY11YF3Z0KTFU HTTP/1.1" 200 -
+2023-06-15 10:21:59,855 INFO werkzeug Thread-332 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:21:59] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:22:49,465 INFO werkzeug Thread-333 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:22:49] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-15 10:22:49,494 INFO werkzeug Thread-334 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:22:49] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-15 10:22:49,496 INFO werkzeug Thread-335 (process_request_thread) : 127.0.0.1 - - [15/Jun/2023 10:22:49] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-15 10:32:29,909 INFO werkzeug MainThread :  * Detected change in '/Users/kapo/PycharmProjects/eduplanner/app/edu/controllers/LessonsController.py', reloading
+2023-06-15 10:32:30,056 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-15 10:32:31,060 INFO app MainThread : DEBUG       = True
+2023-06-15 10:32:31,060 INFO app MainThread : Environment = Debug
+2023-06-15 10:32:31,060 INFO app MainThread : DBMS        = sqlite:////Users/kapo/PycharmProjects/eduplanner/app/db.sqlite3?check_same_thread=False
+2023-06-15 10:32:31,062 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-15 10:32:31,072 INFO werkzeug MainThread :  * Debugger PIN: 808-977-508
