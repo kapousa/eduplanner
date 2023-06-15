@@ -1,15 +1,19 @@
+from datetime import datetime
+
 import openai
 
 from app.edu.constants.Phrases import Phrases
 from app.edu.constants.k import F, S, T
+from app.edu.database.crud.CRUDLessonDesign import CRUDLessonDesign
 from app.edu.database.crud.CRUDLessonDesignSection import CRUDLessonDesignSection
 from app.edu.database.utils.Helper import Helper
 from app.edu.errorhandlers.GeneralHandler import GeneralHandler
-from app.edu.database.crud.CRUDLessonDesign import CRUDLessonDesign
+
 
 class Generator:
-    LESSON_OUTLINE = ['Objectives', 'Lesson Duration',  'Required Materials', 'Lesson Outline', 'PowerPoint Slides', 'Interactive '
-                                                                                                 'Activities',
+    LESSON_OUTLINE = ['Objectives', 'Lesson Duration', 'Required Materials', 'Lesson Outline', 'PowerPoint Slides',
+                      'Interactive '
+                      'Activities',
                       'Conclusion']
 
     def generate_lesson_design(self, user_id, reportname, user_text, req_sections):
@@ -18,10 +22,12 @@ class Generator:
 
         # Add leasson
         lesson = {'id': lesson_design_id,
-                         'lesson_design_name': reportname,
-                         'desc': user_text,
-                         'user_id': user_id
-                         }
+                  'lesson_design_name': reportname,
+                  'desc': user_text,
+                  'user_id': user_id,
+                  'created_on': str(datetime.now()),
+                  'updated_on': str(datetime.now())
+                  }
         crudlessondesign = CRUDLessonDesign()
         addlessondesign = crudlessondesign.add(lesson)
 
@@ -35,7 +41,9 @@ class Generator:
                 'id': Helper.generate_random_string(14),
                 'lesson_design_section': req_sections[i],
                 'content': lesson_outline,
-                'lesson_design_id': lesson_design_id
+                'lesson_design_id': lesson_design_id,
+                'created_on': str(datetime.now()),
+                'updated_on': str(datetime.now())
             })
 
         # Add lesson design sections
@@ -59,7 +67,6 @@ class Generator:
                 "top_p": 1,
                 "frequency_penalty": 0,
                 "presence_penalty": 0
-
             }
 
             # Call the OpenAI API to generate paragraphs

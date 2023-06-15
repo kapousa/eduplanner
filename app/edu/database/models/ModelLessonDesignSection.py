@@ -16,6 +16,8 @@ class ModelLessonDesignSection(db.Model):
     lesson_design_section = Column(String)
     content = Column(String)
     lesson_design_id = Column(String)
+    created_on = Column(String)
+    updated_on = Column(String)
 
     def __init__(self, **kwargs):
         for property, value in kwargs.items():

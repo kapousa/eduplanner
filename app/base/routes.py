@@ -11,7 +11,7 @@ from app.base import blueprint
 @blueprint.route('/index')
 @login_required
 def index():
-    return render_template('application/pages/lessons/index.html', segment='index')
+    return render_template('lessons/index.html', segment='index')
 
 @blueprint.route('/<template>')
 @login_required

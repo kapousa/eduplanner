@@ -21,16 +21,16 @@ class LessonsController:
 
         lesson_design = generator.generate_lesson_design(session['logger'], reportname, desc, req_sections)
 
-        return render_template("application/pages/lessons/lessondesign.html", lesson_design=lesson_design, desc=desc, reportname=reportname)
+        return render_template("lessons/lessondesign.html", lesson_design=lesson_design, desc=desc, reportname=reportname)
 
     def get_all_reports(self):
         crudlessondesign = CRUDLessonDesign()
         lessondesigns = crudlessondesign.retrieve_all(session['logger'])
 
         if len(lessondesigns) > 0:
-            return render_template("application/pages/lessons/myplans.html", lesson_designs=lessondesigns, reports_excit = 'Yes')
+            return render_template("lessons/myplans.html", lesson_designs=lessondesigns, reports_excit = 'Yes')
 
-        return render_template("application/pages/lessons/myplans.html", reports_excit='No')
+        return render_template("lessons/myplans.html", reports_excit='No')
 
     def get_report(self, report_id):
         crudlessondesign = CRUDLessonDesign()
@@ -45,6 +45,6 @@ class LessonsController:
         for lessonsection in lessonsections:
             lesson_sections[lessonsection.lesson_design_section] = lessonsection.content
 
-        return render_template("application/pages/lessons/lessonview.html", lesson_sections=lesson_sections, desc=lessondesign.desc, reportname=lessondesign.lesson_design_name)
+        return render_template("lessons/lessonview.html", lesson_sections=lesson_sections, desc=lessondesign.desc, reportname=lessondesign.lesson_design_name)
 
 

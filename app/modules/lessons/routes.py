@@ -8,7 +8,7 @@ from app.modules.lessons import blueprint
 @blueprint.route('/lessons/startreport', methods=['POST', 'GET'])
 @login_required
 def startreport():
-    return render_template("application/pages/lessons/index.html")
+    return render_template("lessons/index.html")
 
 @blueprint.route('/lessons/generatelesson', methods=['POST', 'GET'])
 @login_required

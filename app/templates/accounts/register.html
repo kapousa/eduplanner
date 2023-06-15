@@ -1,0 +1,92 @@
+{% extends 'layouts/base.html' %}
+
+{% block title %} Login {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+    <!-- Page content -->
+    <section>
+        <div class="formbold-main-wrapper">
+            <img src="../static/images/logo.jpg" style="width: 30%; height: 30%;">
+            <div class="formbold-form-wrapper">
+                <form action="/register" method="POST">
+                    <div class="formbold-input-group">
+                        <label for="first_name" class="formbold-form-label"> First Name </label>
+                        <input
+                                type="text"
+                                name="first_name"
+                                id="first_name"
+                                placeholder="Enter your first name"
+                                class="formbold-form-input"
+                                required
+                        />
+                    </div>
+                    <div class="formbold-input-group">
+                        <label for="last_name" class="formbold-form-label"> Last Name </label>
+                        <input
+                                type="text"
+                                name="last_name"
+                                id="last_name"
+                                placeholder="Enter your last name"
+                                class="formbold-form-input"
+                                required
+                        />
+                    </div>
+                    <div class="formbold-input-group">
+                        <label for="username" class="formbold-form-label"> Username </label>
+                        <input
+                                type="text"
+                                name="username"
+                                id="username"
+                                placeholder="Enter your username"
+                                class="formbold-form-input"
+                                required
+                        />
+                    </div>
+                    <div class="formbold-input-group">
+                        <label for="email" class="formbold-form-label"> Email </label>
+                        <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Enter your email"
+                                class="formbold-form-input"
+                                required
+                        />
+                    </div>
+                    <div class="formbold-input-group">
+                        <label for="age" class="formbold-form-label"> Password </label>
+                        <input
+                                type="password"
+                                name="password"
+                                id="password"
+                                placeholder="Enter your password"
+                                class="formbold-form-input"
+                                required
+                        />
+                    </div>
+                    <div class="formbold-input-group">
+                        <label for="account_type" class="formbold-form-label"> Username </label>
+                        <input
+                                type="hidden"
+                                name="account_type"
+                                id="account_type"
+                                placeholder="Enter your account type"
+                                class="formbold-form-input"
+                                required
+                        />
+                    </div>
+                    <p style="color: red">{{ msg|safe }}</p>
+                    <button type="submit" class="formbold-btn" name="register">Create Account</button>
+                    <p style="padding-top: 10px;">I have account, <a href="/login">Login Now!</a></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}{% endblock javascripts %}
