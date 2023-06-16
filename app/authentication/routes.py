@@ -14,7 +14,7 @@ from app import db, login_manager
 from app.authentication import blueprint
 from app.authentication.forms import LoginForm, CreateAccountForm
 from app.base.models import User
-
+import datetime
 from app.authentication.util import verify_pass
 
 
@@ -62,6 +62,7 @@ def login():
 
 @blueprint.route('/register', methods=['GET', 'POST'])
 def register():
+    current_time = datetime.datetime.now()
     create_account_form = CreateAccountForm(request.form)
     if 'register' in request.form:
 
@@ -74,7 +75,7 @@ def register():
             return render_template('accounts/register.html',
                                    msg='Username already registered',
                                    success=False,
-                                   form=create_account_form)
+                                   form=create_account_form, current_time=current_time)
 
         # Check email exists
         user = User.query.filter_by(email=email).first()
@@ -82,7 +83,7 @@ def register():
             return render_template('accounts/register.html',
                                    msg='Email already registered',
                                    success=False,
-                                   form=create_account_form)
+                                   form=create_account_form, current_time=current_time)
 
         # else we can create the user
         user = User(**request.form)
@@ -92,10 +93,10 @@ def register():
         return render_template('accounts/register.html',
                                msg='User created please <a href="/login">login</a>',
                                success=True,
-                               form=create_account_form)
+                               form=create_account_form, current_time=current_time)
 
     else:
-        return render_template('accounts/register.html', form=create_account_form)
+        return render_template('accounts/register.html', form=create_account_form, current_time=current_time)
 
 
 @blueprint.route('/logout')

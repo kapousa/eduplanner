@@ -1,0 +1,50 @@
+{% extends 'layouts/base_logged.html' %}
+
+{% block title %} Add Feedback {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Page content -->
+    <div class="formbold-main-wrapper">
+        <img src="../static/images/logo.jpg" style="width: 30%; height: 30%;">
+        <div class="formbold-form-wrapper" style="max-width: 70%">
+            <form action="/feedback/add" method="POST">
+                <label for="feedback" class="formbold-form-label">Feedback</label>
+                <div class="formbold-input-group">
+                    <textarea
+                            name="feedback"
+                            id="feedback"
+                            rows="7"
+                            placeholder="Give us your feedback..."
+                            class="formbold-form-input"
+                            maxlength="1000"
+                            onkeyup="updateCounter()"
+                            required
+                            style="color: dimgray; font-size: 18px;"
+                    >{{ desc }}</textarea>
+                </div>
+                <div class="counter" id="counter">0/1000</div>
+                <p style="color: green">{{ msg|safe }}</p>
+                <button class="formbold-btn" name="login">Send</button>
+            </form>
+        </div>
+    </div>
+
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}
+    <script>
+        function updateCounter() {
+            var textarea = document.getElementById("feedback");
+            var counter = document.getElementById("counter");
+            var maxLength = textarea.getAttribute("maxlength");
+            var currentLength = textarea.value.length;
+
+            counter.innerHTML = currentLength + "/" + maxLength;
+        }
+    </script>
+{% endblock javascripts %}

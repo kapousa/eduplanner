@@ -68,13 +68,35 @@
                         />
                     </div>
                     <div class="formbold-input-group">
-                        <label for="account_type" class="formbold-form-label"> Username </label>
+                        <label for="account_type" class="formbold-form-label"></label>
                         <input
                                 type="hidden"
                                 name="account_type"
                                 id="account_type"
                                 placeholder="Enter your account type"
                                 class="formbold-form-input"
+                                required
+                        />
+                    </div>
+                    <div class="formbold-input-group">
+                        <label for="created_on" class="formbold-form-label"></label>
+                        <input
+                                type="hidden"
+                                name="created_on"
+                                id="created_on"
+                                class="formbold-form-input"
+                                value="{{ current_time }}"
+                                required
+                        />
+                    </div>
+                    <div class="formbold-input-group">
+                        <label for="updated_on" class="formbold-form-label"></label>
+                        <input
+                                type="hidden"
+                                name="updated_on"
+                                id="updated_on"
+                                class="formbold-form-input"
+                                value="{{ current_time }}"
                                 required
                         />
                     </div>

@@ -20,6 +20,8 @@ class User(db.Model, UserMixin):
     username = Column(String, unique=True)
     email = Column(String, unique=True)
     password = Column(BINARY)
+    created_on = Column(String)
+    updated_on = Column(String)
 
     def __init__(self, **kwargs):
         for property, value in kwargs.items():
