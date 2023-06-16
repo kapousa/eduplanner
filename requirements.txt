@@ -4,3 +4,8 @@ Jinja2~=3.1.2
 WTForms~=3.0.1
 gunicorn
 openai~=0.27.8
+flask_login
+flask_migrate
+flask_wtf
+flask_sqlalchemy
+email_validator
