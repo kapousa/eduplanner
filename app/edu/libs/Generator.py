@@ -1,6 +1,7 @@
 from datetime import datetime
 
 import openai
+from flask import session
 
 from app.edu.constants.Phrases import Phrases
 from app.edu.constants.k import F, S, T
@@ -49,6 +50,7 @@ class Generator:
         # Add lesson design sections
         crudlessondesignsection = CRUDLessonDesignSection()
         addlessondesignsections = crudlessondesignsection.bulk_add(lesson_design_sections)
+        session['report_id'] = lesson_design_id
 
         return lesson_design
 

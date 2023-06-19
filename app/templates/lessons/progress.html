@@ -1,0 +1,56 @@
+{% extends 'layouts/base_logged.html' %}
+
+{% block title %} View Lesson {% endblock title %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <!-- Page content -->
+    <section>
+        <div class="fancy_paragraph">
+            Pleae wait until we finsih generating your lesson plan.
+        </div>
+    </section>
+    <section>
+        <div id="loading" class="loader"></div>
+    </section>
+    <section>
+        <div style="padding-top: 100px; height: 50px;"></div>
+    </section>
+{% endblock content %}
+
+<!-- Specific JS goes HERE -->
+{% block javascripts %}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Show the loading icon
+            $('#loading').show();
+
+            // Define the data to be sent with the request
+            var requestData = {
+                'desc': '{{ desc }}',
+                'sections': '{{ sections }}',
+                'reportname': '{{ reportname }}'
+            };
+
+            $.ajax({
+                url: '/lessons/generatelesson',
+                type: 'POST',
+                data: requestData,
+                success: function (response) {
+                    // Redirect to a new page after receiving the response
+                    // Redirect to the Flask route using JavaScript
+                    var newPageUrl = '{{ url_for("lessons_blueprint.viewgeneratedreport") }}';
+                    window.location.href = newPageUrl;
+                },
+                complete: function () {
+                    // Hide the loading icon when the request is complete
+                    $('#loading').hide();
+                }
+            });
+        });
+    </script>
+{% endblock javascripts %}

@@ -2,6 +2,7 @@ from flask import render_template, session
 
 from app.edu.database.crud.CRUDLessonDesign import CRUDLessonDesign
 from app.edu.database.crud.CRUDLessonDesignSection import CRUDLessonDesignSection
+from app.edu.database.models.ModelLessonDesign import ModelLessonDesign
 from app.edu.libs.Generator import Generator
 
 
@@ -47,4 +48,8 @@ class LessonsController:
 
         return render_template("lessons/lessonview.html", lesson_sections=lesson_sections, desc=lessondesign.desc, reportname=lessondesign.lesson_design_name)
 
+    def get_newest_report_id(self, user_id):
+        modellessondesign = ModelLessonDesign.query.with_entities(ModelLessonDesign.id).filter_by(user_id=user_id).first()
+
+        return modellessondesign.id
 

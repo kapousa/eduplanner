@@ -1,4 +1,4 @@
-from flask import request, render_template
+from flask import request, render_template, session
 from flask_login import login_required
 
 from app.edu.controllers.LessonsController import LessonsController
@@ -25,9 +25,26 @@ def myreports():
 @blueprint.route('/lessons/view', methods=['POST', 'GET'])
 @login_required
 def viewreport():
-    report_id = request.args.get('r')
     lessons_controller = LessonsController()
+    report_id = request.args.get('r')
     return lessons_controller.get_report(report_id)
+
+@blueprint.route('/lessons/viewgeneratedreport', methods=['POST', 'GET'])
+@login_required
+def viewgeneratedreport():
+    lessons_controller = LessonsController()
+    report_id = session['report_id']
+    session.pop('report_id')
+    return lessons_controller.get_report(report_id)
+
+@blueprint.route('/lessons/progress', methods=['POST', 'GET'])
+@login_required
+def progress():
+    desc = request.form.get("desc")
+    sections = request.form.getlist('sections')
+    sections_str = comma_separated_string = ", ".join(sections)
+    reportname = request.form.get('reportname')
+    return render_template("lessons/progress.html", desc= desc, sections = sections_str, reportname = reportname)
 
 
 
