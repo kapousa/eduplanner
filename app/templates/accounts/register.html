@@ -12,60 +12,101 @@
             <img src="../static/images/logo.jpg" style="width: 30%; height: 30%;">
             <div class="formbold-form-wrapper">
                 <form action="/register" method="POST">
+                    {{ form.csrf_token }}
                     <div class="formbold-input-group">
-                        <label for="first_name" class="formbold-form-label"> First Name </label>
+                        <label for="first_name" class="formbold-form-label">First Name</label>
                         <input
                                 type="text"
                                 name="first_name"
                                 id="first_name"
                                 placeholder="Enter your first name"
                                 class="formbold-form-input"
-                                required
+                                value="{{ form.first_name.data }}"
                         />
+                        {% if form.first_name.errors %}
+                            {% for error in form.first_name.errors %}
+                                <p style="color: red">{{ error|safe }}</p>
+                            {% endfor %}
+                        {% endif %}
                     </div>
                     <div class="formbold-input-group">
-                        <label for="last_name" class="formbold-form-label"> Last Name </label>
+                        <label for="last_name" class="formbold-form-label">Last Name</label>
                         <input
                                 type="text"
                                 name="last_name"
                                 id="last_name"
                                 placeholder="Enter your last name"
                                 class="formbold-form-input"
-                                required
+                                value="{{ form.last_name.data }}"
                         />
+                        {% if form.last_name.errors %}
+                            {% for error in form.last_name.errors %}
+                                <p style="color: red">{{ error|safe }}</p>
+                            {% endfor %}
+                        {% endif %}
                     </div>
                     <div class="formbold-input-group">
-                        <label for="username" class="formbold-form-label"> Username </label>
+                        <label for="username" class="formbold-form-label">Username</label>
                         <input
                                 type="text"
                                 name="username"
                                 id="username"
                                 placeholder="Enter your username"
                                 class="formbold-form-input"
-                                required
+                                value="{{ form.username.data }}"
                         />
+                        {% if form.username.errors %}
+                            {% for error in form.username.errors %}
+                                <p style="color: red">{{ error|safe }}</p>
+                            {% endfor %}
+                        {% endif %}
                     </div>
                     <div class="formbold-input-group">
-                        <label for="email" class="formbold-form-label"> Email </label>
+                        <label for="email" class="formbold-form-label">Email</label>
                         <input
-                                type="email"
+                                type="text"
                                 name="email"
                                 id="email"
                                 placeholder="Enter your email"
                                 class="formbold-form-input"
-                                required
+                                value="{{ form.email.data }}"
                         />
+                        {% if form.email.errors %}
+                            {% for error in form.email.errors %}
+                                <p style="color: red">{{ error|safe }}</p>
+                            {% endfor %}
+                        {% endif %}
                     </div>
                     <div class="formbold-input-group">
-                        <label for="age" class="formbold-form-label"> Password </label>
+                        <label for="password" class="formbold-form-label">Password</label>
                         <input
                                 type="password"
                                 name="password"
                                 id="password"
                                 placeholder="Enter your password"
                                 class="formbold-form-input"
-                                required
                         />
+                        <h10 style="color:green">Password must have at least one capital letter, one special character, and one number</h10>
+                        {% if form.password.errors %}
+                            {% for error in form.password.errors %}
+                                <p style="color: red">{{ error|safe }}</p>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    <div class="formbold-input-group">
+                        <label for="confirm_password" class="formbold-form-label">Confirm Password</label>
+                        <input
+                                type="password"
+                                name="confirm_password"
+                                id="confirm_password"
+                                placeholder="Re-Enter your password"
+                                class="formbold-form-input"
+                        />
+                        {% if form.confirm_password.errors %}
+                            {% for error in form.confirm_password.errors %}
+                                <p style="color: red">{{ error|safe }}</p>
+                            {% endfor %}
+                        {% endif %}
                     </div>
                     <div class="formbold-input-group">
                         <label for="account_type" class="formbold-form-label"></label>
@@ -75,7 +116,6 @@
                                 id="account_type"
                                 placeholder="Enter your account type"
                                 class="formbold-form-input"
-                                required
                         />
                     </div>
                     <div class="formbold-input-group">
@@ -86,7 +126,6 @@
                                 id="created_on"
                                 class="formbold-form-input"
                                 value="{{ current_time }}"
-                                required
                         />
                     </div>
                     <div class="formbold-input-group">
@@ -97,7 +136,6 @@
                                 id="updated_on"
                                 class="formbold-form-input"
                                 value="{{ current_time }}"
-                                required
                         />
                     </div>
                     <p style="color: red">{{ msg|safe }}</p>

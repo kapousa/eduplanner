@@ -1,11 +1,12 @@
 import traceback
 
-from flask import render_template, request
+from flask import render_template, request, send_from_directory, send_file
 from flask_login import login_required
 from jinja2 import TemplateNotFound
 
 from app import login_manager
 from app.base import blueprint
+from app.edu.helper.Helper import Helper
 
 
 @blueprint.route('/index')
@@ -49,6 +50,10 @@ def get_segment(request):
         return None
 
 
+@blueprint.route('/downloads')
+def download_file():
+    path = Helper.downlaod_database()  # Replace with the actual path to your files
+    return send_file(path, as_attachment=True)
 
 ## Errors
 @login_manager.unauthorized_handler

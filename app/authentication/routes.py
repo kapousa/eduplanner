@@ -64,10 +64,17 @@ def login():
 def register():
     current_time = datetime.datetime.now()
     create_account_form = CreateAccountForm(request.form)
+
     if 'register' in request.form:
+
+        if not create_account_form.validate(): # Validate inputs
+            return render_template('accounts/register.html', form=create_account_form)
 
         username = request.form['username']
         email = request.form['email']
+        pp =request.form['password']
+        cpp = request.form['confirm_password']
+        at= request.form['account_type']
 
         # Check usename exists
         user = User.query.filter_by(username=username).first()
