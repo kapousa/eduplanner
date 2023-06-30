@@ -7150,3 +7150,107 @@ jinja2.exceptions.TemplateNotFound: page-500.html
 2023-06-21 13:07:36,079 WARNING werkzeug MainThread :  * Debugger is active!
 2023-06-21 13:07:36,085 INFO werkzeug MainThread :  * Debugger PIN: 808-977-508
 2023-06-21 13:07:40,609 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [21/Jun/2023 13:07:40] "GET /downloads HTTP/1.1" 200 -
+2023-06-21 13:16:23,147 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [21/Jun/2023 13:16:23] "GET /downloads HTTP/1.1" 200 -
+2023-06-21 13:16:32,363 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [21/Jun/2023 13:16:32] "[36mGET /downloads HTTP/1.1[0m" 304 -
+2023-06-30 14:15:58,991 INFO app MainThread : DEBUG       = True
+2023-06-30 14:15:58,992 INFO app MainThread : Environment = Debug
+2023-06-30 14:15:58,992 INFO app MainThread : DBMS        = mysql+pymysql://u262389223_lessonic:mypassword@srv865.hstgr.io/u262389223_lessonic
+2023-06-30 14:15:59,004 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5114
+2023-06-30 14:15:59,004 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-06-30 14:15:59,008 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-30 14:16:00,670 INFO app MainThread : DEBUG       = True
+2023-06-30 14:16:00,670 INFO app MainThread : Environment = Debug
+2023-06-30 14:16:00,670 INFO app MainThread : DBMS        = mysql+pymysql://u262389223_lessonic:mypassword@srv865.hstgr.io/u262389223_lessonic
+2023-06-30 14:16:00,673 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-30 14:16:00,682 INFO werkzeug MainThread :  * Debugger PIN: 661-959-576
+2023-06-30 14:16:17,454 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:16:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-06-30 14:16:17,487 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:16:17] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-06-30 14:16:17,488 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:16:17] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-06-30 14:16:17,536 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:16:17] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-06-30 14:16:17,580 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:16:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:16:43,950 INFO werkzeug MainThread :  * Detected change in '/Users/kapo/PycharmProjects/eduplanner/app/config.py', reloading
+2023-06-30 14:16:44,395 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-30 14:16:45,706 INFO app MainThread : DEBUG       = True
+2023-06-30 14:16:45,706 INFO app MainThread : Environment = Debug
+2023-06-30 14:16:45,706 INFO app MainThread : DBMS        = mysql+pymysql://u262389223_lessonic:Summer@321@srv865.hstgr.io/u262389223_lessonic
+2023-06-30 14:16:45,710 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-30 14:16:45,719 INFO werkzeug MainThread :  * Debugger PIN: 661-959-576
+2023-06-30 14:16:46,720 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:16:46] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-06-30 14:16:46,748 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:16:46] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-06-30 14:16:46,748 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:16:46] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-06-30 14:16:46,769 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:16:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:16:46,797 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:16:46] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:19:02,003 INFO werkzeug MainThread :  * Detected change in '/Users/kapo/PycharmProjects/eduplanner/app/config.py', reloading
+2023-06-30 14:19:02,228 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-30 14:19:03,070 INFO app MainThread : DEBUG       = True
+2023-06-30 14:19:03,070 INFO app MainThread : Environment = Debug
+2023-06-30 14:19:03,070 INFO app MainThread : DBMS        = mysql+pymysql://u262389223_lessonic:Lessonic321@srv865.hstgr.io/u262389223_lessonic
+2023-06-30 14:19:03,072 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-30 14:19:03,079 INFO werkzeug MainThread :  * Debugger PIN: 661-959-576
+2023-06-30 14:19:17,176 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:19:17] "[32mGET / HTTP/1.1[0m" 302 -
+2023-06-30 14:19:17,949 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:19:17] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2023-06-30 14:19:17,988 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:19:17] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-06-30 14:19:17,990 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:19:17] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-06-30 14:19:18,006 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:19:18] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-06-30 14:19:18,044 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:19:18] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:34:25,518 INFO app MainThread : DEBUG       = True
+2023-06-30 14:34:25,518 INFO app MainThread : Environment = Debug
+2023-06-30 14:34:25,518 INFO app MainThread : DBMS        = mysql+pymysql://u262389223_lessonic:Lessonic321@srv865.hstgr.io/u262389223_lessonic
+2023-06-30 14:34:25,523 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5114
+2023-06-30 14:34:25,523 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-06-30 14:34:25,525 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-30 14:34:26,689 INFO app MainThread : DEBUG       = True
+2023-06-30 14:34:26,689 INFO app MainThread : Environment = Debug
+2023-06-30 14:34:26,689 INFO app MainThread : DBMS        = mysql+pymysql://u262389223_lessonic:Lessonic321@srv865.hstgr.io/u262389223_lessonic
+2023-06-30 14:34:26,692 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-30 14:34:26,701 INFO werkzeug MainThread :  * Debugger PIN: 661-959-576
+2023-06-30 14:35:03,296 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:35:03] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2023-06-30 14:35:03,330 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:35:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-06-30 14:35:03,331 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:35:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-06-30 14:35:03,337 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:35:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:35:03,349 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:35:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:38:28,748 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:38:28] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2023-06-30 14:38:28,791 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:38:28] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-06-30 14:38:28,802 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:38:28] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-06-30 14:38:28,828 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:38:28] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:38:28,852 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:38:28] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:38:30,362 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:38:30] "[32mGET / HTTP/1.1[0m" 302 -
+2023-06-30 14:38:33,312 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:38:33] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2023-06-30 14:38:33,346 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:38:33] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-06-30 14:38:33,346 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:38:33] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-06-30 14:38:33,358 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:38:33] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:51:08,915 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:51:08] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2023-06-30 14:51:20,288 INFO werkzeug Thread-65 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:51:20] "GET /login HTTP/1.1" 200 -
+2023-06-30 14:51:20,315 INFO werkzeug Thread-66 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:51:20] "GET /static/css/main.css HTTP/1.1" 200 -
+2023-06-30 14:51:20,324 INFO werkzeug Thread-70 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:51:20] "GET /static/images/logo.jpg HTTP/1.1" 200 -
+2023-06-30 14:51:21,775 INFO werkzeug Thread-71 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:51:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-06-30 14:51:44,779 INFO werkzeug Thread-72 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:51:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2023-06-30 14:51:45,573 INFO werkzeug Thread-73 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:51:45] "GET /lessons/startreport HTTP/1.1" 200 -
+2023-06-30 14:51:45,621 INFO werkzeug Thread-88 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:51:45] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-30 14:51:45,625 INFO werkzeug Thread-89 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:51:45] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-30 14:52:09,593 INFO werkzeug Thread-90 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:52:09] "[35m[1mGET /lessons/myreports HTTP/1.1[0m" 500 -
+2023-06-30 14:52:09,623 INFO werkzeug Thread-91 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:52:09] "GET /lessons/myreports?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-06-30 14:52:09,628 INFO werkzeug Thread-92 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:52:09] "GET /lessons/myreports?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-06-30 14:52:09,664 INFO werkzeug Thread-93 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:52:09] "GET /lessons/myreports?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-06-30 14:52:09,696 INFO werkzeug Thread-94 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:52:09] "[36mGET /lessons/myreports?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:58:08,029 INFO werkzeug Thread-95 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:58:08] "[35m[1mGET /lessons/myreports HTTP/1.1[0m" 500 -
+2023-06-30 14:58:08,065 INFO werkzeug Thread-136 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:58:08] "[36mGET /lessons/myreports?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-06-30 14:58:08,071 INFO werkzeug Thread-137 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:58:08] "[36mGET /lessons/myreports?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-06-30 14:58:08,086 INFO werkzeug Thread-138 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:58:08] "[36mGET /lessons/myreports?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:58:08,122 INFO werkzeug Thread-139 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 14:58:08] "[36mGET /lessons/myreports?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-06-30 14:59:36,680 INFO werkzeug MainThread :  * Detected change in '/Users/kapo/PycharmProjects/eduplanner/app/edu/database/models/ModelLessonDesign.py', reloading
+2023-06-30 14:59:36,988 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-30 14:59:39,789 INFO app MainThread : DEBUG       = True
+2023-06-30 14:59:39,789 INFO app MainThread : Environment = Debug
+2023-06-30 14:59:39,789 INFO app MainThread : DBMS        = mysql+pymysql://u262389223_lessonic:Lessonic321@srv865.hstgr.io/u262389223_lessonic
+2023-06-30 14:59:39,792 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-30 14:59:39,801 INFO werkzeug MainThread :  * Debugger PIN: 661-959-576
+2023-06-30 15:00:17,216 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 15:00:17] "GET /lessons/myreports HTTP/1.1" 200 -
+2023-06-30 15:00:17,255 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 15:00:17] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-30 15:00:27,996 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 15:00:27] "GET /lessons/view?r=C5SC02CP3EB6GZ HTTP/1.1" 200 -
+2023-06-30 15:00:28,029 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 15:00:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-30 15:00:31,510 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 15:00:31] "GET /feedback/sendfeedback HTTP/1.1" 200 -
+2023-06-30 15:00:31,530 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 15:00:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+2023-06-30 15:00:31,532 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 15:00:31] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -

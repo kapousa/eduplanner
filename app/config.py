@@ -17,7 +17,8 @@ class Config(object):
     SECRET_KEY = config('SECRET_KEY', default='S#perS3crEt_007')
 
     # This will create a file in <app> FOLDER
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'db.sqlite3' + '?check_same_thread=False')
+    #SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(basedir, 'db.sqlite3' + '?check_same_thread=False')
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://u262389223_lessonic:Lessonic321@srv865.hstgr.io/u262389223_lessonic'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
     # Demo configurations

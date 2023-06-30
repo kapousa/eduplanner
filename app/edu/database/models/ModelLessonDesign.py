@@ -15,7 +15,7 @@ class ModelLessonDesign(db.Model):
     id = Column(String, primary_key=True, unique=True)
     lesson_design_name = Column(String)
     desc = Column(String)
-    user_id = Column(String)
+    user_id = Column(Integer)
     created_on = Column(String)
     updated_on = Column(String)
 
