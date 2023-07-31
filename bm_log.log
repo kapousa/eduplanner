@@ -7254,3 +7254,15 @@ jinja2.exceptions.TemplateNotFound: page-500.html
 2023-06-30 15:00:31,510 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 15:00:31] "GET /feedback/sendfeedback HTTP/1.1" 200 -
 2023-06-30 15:00:31,530 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 15:00:31] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
 2023-06-30 15:00:31,532 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [30/Jun/2023 15:00:31] "[36mGET /static/images/logo.jpg HTTP/1.1[0m" 304 -
+2023-06-30 15:12:40,240 INFO app MainThread : DEBUG       = True
+2023-06-30 15:12:40,240 INFO app MainThread : Environment = Debug
+2023-06-30 15:12:40,240 INFO app MainThread : DBMS        = mysql+pymysql://u262389223_lessonic:Lessonic321@srv865.hstgr.io/u262389223_lessonic
+2023-06-30 15:12:40,244 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5114
+2023-06-30 15:12:40,244 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2023-06-30 15:12:40,245 INFO werkzeug MainThread :  * Restarting with stat
+2023-06-30 15:12:40,721 INFO app MainThread : DEBUG       = True
+2023-06-30 15:12:40,722 INFO app MainThread : Environment = Debug
+2023-06-30 15:12:40,722 INFO app MainThread : DBMS        = mysql+pymysql://u262389223_lessonic:Lessonic321@srv865.hstgr.io/u262389223_lessonic
+2023-06-30 15:12:40,723 WARNING werkzeug MainThread :  * Debugger is active!
+2023-06-30 15:12:40,730 INFO werkzeug MainThread :  * Debugger PIN: 661-959-576
